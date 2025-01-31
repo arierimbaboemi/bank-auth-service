@@ -1,8 +1,8 @@
 package config
 
 import (
+	"github.com/arierimbaboemi/bank-auth-service/domain"
 	logger "github.com/arierimbaboemi/bank-lib-service/config"
-	"github.com/arierimbaboemi/go-banking-auth/domain"
 
 	"github.com/jmoiron/sqlx"
 )

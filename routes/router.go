@@ -6,12 +6,12 @@ import (
 
 	"net/http"
 
+	hand "github.com/arierimbaboemi/bank-auth-service/adapter/handler"
+	repo "github.com/arierimbaboemi/bank-auth-service/adapter/repository"
+	conf "github.com/arierimbaboemi/bank-auth-service/config"
+	"github.com/arierimbaboemi/bank-auth-service/middleware"
+	serv "github.com/arierimbaboemi/bank-auth-service/service"
 	logger "github.com/arierimbaboemi/bank-lib-service/config"
-	hand "github.com/arierimbaboemi/go-banking-auth/adapter/handler"
-	repo "github.com/arierimbaboemi/go-banking-auth/adapter/repository"
-	conf "github.com/arierimbaboemi/go-banking-auth/config"
-	"github.com/arierimbaboemi/go-banking-auth/middleware"
-	serv "github.com/arierimbaboemi/go-banking-auth/service"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/arierimbaboemi/bank-auth-service/dto"
 	logger "github.com/arierimbaboemi/bank-lib-service/config"
-	"github.com/arierimbaboemi/go-banking-auth/dto"
 )
 
 func ResponseJSON(w http.ResponseWriter, data interface{}, code int, status string, message string) {

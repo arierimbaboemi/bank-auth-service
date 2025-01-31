@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/arierimbaboemi/bank-auth-service/dto"
+	"github.com/arierimbaboemi/bank-auth-service/service"
+	"github.com/arierimbaboemi/bank-auth-service/utils"
 	logger "github.com/arierimbaboemi/bank-lib-service/config"
-	"github.com/arierimbaboemi/go-banking-auth/dto"
-	"github.com/arierimbaboemi/go-banking-auth/service"
-	"github.com/arierimbaboemi/go-banking-auth/utils"
 
 	"github.com/go-playground/validator/v10"
 )

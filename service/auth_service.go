@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	adapter "github.com/arierimbaboemi/bank-auth-service/adapter/repository"
+	config "github.com/arierimbaboemi/bank-auth-service/config"
 	logger "github.com/arierimbaboemi/bank-lib-service/config"
-	adapter "github.com/arierimbaboemi/go-banking-auth/adapter/repository"
-	config "github.com/arierimbaboemi/go-banking-auth/config"
 
 	"golang.org/x/crypto/bcrypt"
 )
